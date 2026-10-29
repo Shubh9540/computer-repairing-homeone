@@ -1,0 +1,953 @@
+{
+  "common": {
+    "Footer": {
+      "logo": "/main logo/footer logo.webp",
+      "logoAlt": "TechFix Logo",
+      "brandTitle": "TechFix",
+      "copyrightText": "© 2026 TechFix. All Rights Reserved. Powered by Lestow",
+      "description": "We fix laptops and computers for homes and offices. From screen breaks to slow systems, our local repair team helps you get your computer back up and running without any fuss.",
+      "hoursTitle": "Working Hours",
+      "hoursDays": "Mon - Sat:",
+      "hours": "9:00 AM - 7:00 PM\nSunday: Closed",
+      "socialLinks": [
+        {
+          "id": "fs1",
+          "icon": "FaFacebookF",
+          "url": "https://www.facebook.com"
+        },
+        {
+          "id": "fs2",
+          "icon": "FaInstagram",
+          "url": "https://www.instagram.com"
+        },
+        {
+          "id": "fs3",
+          "icon": "FaLinkedinIn",
+          "url": "https://www.linkedin.com"
+        },
+        {
+          "id": "fs4",
+          "icon": "FaYoutube",
+          "url": "https://www.youtube.com"
+        }
+      ],
+      "quickLinks": [
+        {
+          "id": "ql1",
+          "label": "Home",
+          "url": "/#home"
+        },
+        {
+          "id": "ql2",
+          "label": "Services",
+          "url": "/#services"
+        },
+        {
+          "id": "ql3",
+          "label": "About Us",
+          "url": "/#about"
+        },
+        {
+          "id": "ql4",
+          "label": "Process",
+          "url": "/#process"
+        },
+        {
+          "id": "ql5",
+          "label": "Pricing",
+          "url": "/#pricing"
+        },
+        {
+          "id": "ql-brands",
+          "label": "Brands",
+          "url": "/#brands"
+        },
+        {
+          "id": "ql6",
+          "label": "Book Repair",
+          "url": "/#book"
+        }
+      ],
+      "servicesLinks": [
+        {
+          "id": "sl1",
+          "label": "Laptop Repair",
+          "url": "/#services"
+        },
+        {
+          "id": "sl2",
+          "label": "Desktop Repair",
+          "url": "/#services"
+        },
+        {
+          "id": "sl3",
+          "label": "Screen Replacement",
+          "url": "/#services"
+        },
+        {
+          "id": "sl4",
+          "label": "Keyboard Replacement",
+          "url": "/#services"
+        },
+        {
+          "id": "sl5",
+          "label": "Software Troubleshooting",
+          "url": "/#services"
+        },
+        {
+          "id": "sl6",
+          "label": "Data Recovery",
+          "url": "/#services"
+        }
+      ],
+      "contactInfo": {
+        "address": "123 Main St, New York, NY, USA",
+        "phone": "+1 000000000",
+        "email": "info@xyz.com"
+      },
+      "satisfactionTitle": "Reliable Computer & Laptop Repairs",
+      "satisfactionDesc": "Over 10,000 laptops and desktops repaired locally",
+      "quickLinksTitle": "Quick Links",
+      "getInTouchTitle": "Get In Touch",
+      "callNowText": "Call Now 24/7",
+      "emailReplyText": "We reply within 1 hour",
+      "servicesTitle": "Our Services",
+      "stayConnectedTitle": "Stay Connected",
+      "stayConnectedDesc": "Sign up for practical computer maintenance advice and special repair offers.",
+      "newsletterTitle": "Expert Tips & Guides",
+      "newsletterDesc": "Simple ways to keep your computer fast, clean, and working smoothly.",
+      "badge1": "Skilled\\nTechnicians",
+      "badge2": "Affordable\\nPricing",
+      "badge3": "24/7\\nSupport",
+      "bgImage": "/main logo/footer bg.webp"
+    },
+    "globalUI": {
+      "loadingText": "Loading Data...",
+      "notFoundText": "Page Not Found",
+      "blogNotFoundText": "Blog Not Found",
+      "readMoreText": "Read More",
+      "chooseServiceText": "Choose Service"
+    }
+  },
+  "categories": {
+    "Computer Repair": {
+      "sections": {
+        "Header": {
+          "variants": {
+            "Computer RepairHeader2": {
+              "logo": "/main logo/header logo.webp",
+              "logoAlt": "TechFix Computer Repair",
+              "contactInfoLeft": [
+                {
+                  "id": "ci-phone",
+                  "icon": "FiPhoneCall",
+                  "label": "Call for help:",
+                  "value": "+1 000000000"
+                },
+                {
+                  "id": "ci-email",
+                  "icon": "FiMail",
+                  "label": "Mail to us:",
+                  "value": "info@xyz.com"
+                }
+              ],
+              "contactInfoRight": [
+                {
+                  "id": "ci-location",
+                  "icon": "FiMapPin",
+                  "label": "Our Location:",
+                  "value": "123 Main St, New York, NY, USA"
+                }
+              ],
+              "navLinksLeft": [
+                {
+                  "id": "nl-home",
+                  "label": "Home",
+                  "url": "/#home"
+                },
+                {
+                  "id": "nl-services",
+                  "label": "Services",
+                  "url": "/#services"
+                },
+                {
+                  "id": "nl-about",
+                  "label": "About Us",
+                  "url": "/#about"
+                },
+                {
+                  "id": "nl-process",
+                  "label": "Process",
+                  "url": "/#process"
+                },
+                {
+                  "id": "nl-pricing",
+                  "label": "Pricing",
+                  "url": "/#pricing"
+                },
+                {
+                  "id": "nl-faq",
+                  "label": "FAQ",
+                  "url": "/#faq"
+                },
+                {
+                  "id": "nl-brands",
+                  "label": "Brands",
+                  "url": "/#brands"
+                }
+              ],
+              "contactButton": {
+                "text": "Book a Repair",
+                "url": "/#book",
+                "icon": "FaRegCalendarAlt"
+              }
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "Computer RepairHero2": {
+              "badge": "Fast Diagnosis • Same-Day Service Available",
+              "title1": "Computer &",
+              "title2": "Laptop Repairs",
+              "titleHighlight": "Done Right",
+              "description": "Broken screen, slow Windows, or a laptop that will not turn on? Bring it in or book a repair, and our team will get it working like new.",
+              "imageMain": "/other/hero-banner.webp",
+              "button1": {
+                "text": "Book a Repair ->",
+                "url": "/#book",
+                "icon": "FaWrench"
+              },
+              "features": [
+                {
+                  "id": "hf1",
+                  "text": "Experienced Technicians",
+                  "icon": "FaUserTie"
+                },
+                {
+                  "id": "hf2",
+                  "text": "Original Spare Parts",
+                  "icon": "FaCog"
+                },
+                {
+                  "id": "hf3",
+                  "text": "Warranty on Every Repair",
+                  "icon": "FaShieldAlt"
+                }
+              ]
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "Computer RepairAboutUs2": {
+              "subtitle": "About Our Shop",
+              "title1": "Local Computer & Laptop",
+              "title2": "Repair Services",
+              "titleHighlight": "You Can Rely On",
+              "description": "We are a dedicated team of computer repair specialists helping everyday users, students, and businesses get their computers back in shape. Whether it is an accidental drop, water damage, or a stubborn virus, we troubleshoot the root cause and provide clear upfront pricing before we start any work.",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FaUsers",
+                  "title": "Trained Staff",
+                  "description": "Real computer hardware and software specialists"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FaShieldAlt",
+                  "title": "Honest Work",
+                  "description": "Repairs that last, backed by standard warranty"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FaDatabase",
+                  "title": "Original Parts",
+                  "description": "Screens, batteries, and keyboards that fit right"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FaStopwatch",
+                  "title": "Quick Turnaround",
+                  "description": "Most common repairs finished within 24 to 48 hours"
+                }
+              ],
+              "imageMain": "/other/about-main.webp",
+              "imageSmall1": "/other/about-micro.webp",
+              "imageSmall2": "/other/about-screen.webp",
+              "yearsOfService": "10+",
+              "yearsText": "Years of Experience"
+            }
+          }
+        },
+        "Process": {
+          "variants": {
+            "Computer RepairProcess2": {
+              "subtitle": "How It Works",
+              "title1": "How We Fix",
+              "titleHighlight": "Your Computer",
+              "title2": "In 4 Steps",
+              "description": "Getting your laptop or PC fixed with us is straightforward. No technical jargon, no guesswork.",
+              "steps": [
+                {
+                  "id": "p1",
+                  "number": "1",
+                  "title": "Book or Drop Off",
+                  "description": "Fill the quick booking form or visit our workshop with your machine.",
+                  "image": "/other/process-step-1.webp"
+                },
+                {
+                  "id": "p2",
+                  "number": "2",
+                  "title": "Free Checkup",
+                  "description": "We test your computer, find the exact issue, and give you a clear price quote.",
+                  "image": "/other/process-step-2.webp"
+                },
+                {
+                  "id": "p3",
+                  "number": "3",
+                  "title": "Repair & Test",
+                  "description": "Once you approve, we replace parts, clean the system, and run stability checks.",
+                  "image": "/other/process-step-3.webp"
+                },
+                {
+                  "id": "p4",
+                  "number": "4",
+                  "title": "Ready to Use",
+                  "description": "Collect your working computer or have it safely delivered back to your address.",
+                  "image": "/other/process-step-4.webp"
+                }
+              ]
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "Computer RepairServices2": {
+              "subtitle": "What We Repair",
+              "title1": "Common Laptop & Computer",
+              "titleHighlight": "Repair Services",
+              "description": "We handle all typical desktop and laptop issues under one roof with genuine replacement parts.",
+              "services": [
+                {
+                  "id": "s1",
+                  "title": "Laptop Repair",
+                  "image": "/other/service-laptop.webp",
+                  "url": "/#book",
+                  "description": "Hinges, heating issues, charging problems, and routine service for Dell, HP, Lenovo, and Asus."
+                },
+                {
+                  "id": "s2",
+                  "title": "Desktop / PC Repair",
+                  "image": "/other/service-desktop.webp",
+                  "url": "/#book",
+                  "description": "No display issues, power supply failures, custom build fixes, and hardware upgrades."
+                },
+                {
+                  "id": "s3",
+                  "title": "Screen Replacement",
+                  "image": "/other/service-screen.webp",
+                  "url": "/#book",
+                  "description": "Flickering, black lines, cracked glass, or dead pixels replaced with original grade panels."
+                },
+                {
+                  "id": "s4",
+                  "title": "Keyboard Replacement",
+                  "image": "/other/service-keyboard.webp",
+                  "url": "/#book",
+                  "description": "Sticky keys, liquid spilled keyboards, and non-working keys replaced cleanly."
+                },
+                {
+                  "id": "s5",
+                  "title": "Battery Replacement",
+                  "image": "/other/service-battery.webp",
+                  "url": "/#book",
+                  "description": "Dead laptop batteries, quick battery drainage, or swollen battery packs swapped safely."
+                },
+                {
+                  "id": "s6",
+                  "title": "Motherboard Repair",
+                  "image": "/other/service-motherboard.webp",
+                  "url": "/#book",
+                  "description": "Component-level short circuit diagnosis, chip-level soldering, and power IC replacements."
+                },
+                {
+                  "id": "s7",
+                  "title": "Windows & OS Setup",
+                  "image": "/other/service-window.webp",
+                  "url": "/#book",
+                  "description": "Fresh Windows 10/11 installations, system updates, driver configuration, and license setup."
+                },
+                {
+                  "id": "s8",
+                  "title": "Software Troubleshooting",
+                  "image": "/other/service-software.webp",
+                  "url": "/#book",
+                  "description": "Fixing blue screen errors, freeze-ups, app crashes, and Windows boot loop issues."
+                },
+                {
+                  "id": "s9",
+                  "title": "Virus & Malware Removal",
+                  "image": "/other/service-virus.webp",
+                  "url": "/#book",
+                  "description": "Cleaning pop-ups, trojans, ransomware traces, and installing reliable protection."
+                },
+                {
+                  "id": "s10",
+                  "title": "Data Recovery",
+                  "image": "/other/service-data.webp",
+                  "url": "/#book",
+                  "description": "Recovering photos, documents, and work files from unreadable hard drives and SSDs."
+                },
+                {
+                  "id": "s11",
+                  "title": "SSD & RAM Upgrades",
+                  "image": "/other/service-ssd.webp",
+                  "url": "/#book",
+                  "description": "Turn a sluggish slow laptop into a fast machine with NVMe SSD and memory upgrades."
+                },
+                {
+                  "id": "s12",
+                  "title": "Cleaning & Thermal Paste",
+                  "image": "/other/service-cleaning.webp",
+                  "url": "/#book",
+                  "description": "Dust removal from cooling fans and fresh high-grade thermal paste application to stop overheating."
+                }
+              ]
+            }
+          }
+        },
+        "Brands": {
+          "variants": {
+            "Computer RepairBrands2": {
+              "subtitle": "Brands We Service",
+              "title1": "We Repair Laptops From",
+              "titleHighlight": "All Leading Brands",
+              "description": "Our workshop is equipped with diagnostic tools and parts for all popular computer manufacturers.",
+              "brands": [
+                {
+                  "id": "b1",
+                  "name": "Dell",
+                  "image": "/partner/1.webp"
+                },
+                {
+                  "id": "b2",
+                  "name": "HP",
+                  "image": "/partner/2.webp"
+                },
+                {
+                  "id": "b3",
+                  "name": "Lenovo",
+                  "image": "/partner/3.webp"
+                },
+                {
+                  "id": "b4",
+                  "name": "ASUS",
+                  "image": "/partner/4.webp"
+                },
+                {
+                  "id": "b5",
+                  "name": "Acer",
+                  "image": "/partner/5.webp"
+                },
+                {
+                  "id": "b6",
+                  "name": "Apple",
+                  "image": "/partner/6.webp"
+                },
+                {
+                  "id": "b7",
+                  "name": "MSI",
+                  "image": "/partner/7.webp"
+                },
+                {
+                  "id": "b8",
+                  "name": "Toshiba",
+                  "image": "/partner/8.webp"
+                },
+                {
+                  "id": "b9",
+                  "name": "Microsoft",
+                  "image": "/partner/9.webp"
+                },
+                {
+                  "id": "b10",
+                  "name": "Samsung",
+                  "image": "/partner/10.webp"
+                },
+                {
+                  "id": "b11",
+                  "name": "LG",
+                  "image": "/partner/11.webp"
+                },
+                {
+                  "id": "b12",
+                  "name": "Razer",
+                  "image": "/partner/12.webp"
+                }
+              ],
+              "title2": ""
+            }
+          }
+        },
+        "Achievement": {
+          "variants": {
+            "Computer RepairAchievement2": {
+              "subtitle": "Our Track Record",
+              "title1": "Years of Experience In",
+              "title2": "Repairs",
+              "title3": "",
+              "description": "We have served thousands of local customers with honest advice, fair quotes, and durable repairs.",
+              "bgImage": "/other/achiev.webp",
+              "achievements": [
+                {
+                  "id": "a1",
+                  "icon": "FaUsers",
+                  "value": "2900+",
+                  "label": "Happy Customers"
+                },
+                {
+                  "id": "a2",
+                  "icon": "FaAward",
+                  "value": "12+",
+                  "label": "Years in Business"
+                },
+                {
+                  "id": "a3",
+                  "icon": "FaUserTie",
+                  "value": "15+",
+                  "label": "Repair Specialists"
+                },
+                {
+                  "id": "a4",
+                  "icon": "FaHome",
+                  "value": "3",
+                  "label": "Local Repair Desks"
+                },
+                {
+                  "id": "a5",
+                  "icon": "FaWrench",
+                  "value": "7200+",
+                  "label": "Laptops Fixed"
+                }
+              ],
+              "titleHighlight": "Computer Hardware"
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "Computer RepairTestimonials2": {
+              "subtitle": "Customer Reviews",
+              "title1": "What People Say",
+              "title2": "About Our Work",
+              "description": "Read genuine feedback from customers who got their personal and office computers repaired by us.",
+              "bgImage": "/other/achiev.webp",
+              "testimonials": [
+                {
+                  "id": "t1",
+                  "name": "Priya Sharma",
+                  "location": "Noida, Sector 62",
+                  "quote": "My Dell laptop screen cracked after a fall. TechFix replaced it within 24 hours at almost half the price the official center quoted. Works like a charm.",
+                  "rating": 5,
+                  "avatar": "/other/avatar-1.webp"
+                },
+                {
+                  "id": "t2",
+                  "name": "Rahul Verma",
+                  "location": "Gurgaon, DLF Phase 3",
+                  "quote": "My desktop PC was restarting constantly with a blue screen error. The tech diagnosed a failing RAM stick, swapped it, and had everything running fine the same afternoon.",
+                  "rating": 5,
+                  "avatar": "/other/avatar-2.webp"
+                },
+                {
+                  "id": "t3",
+                  "name": "Neha Kapoor",
+                  "location": "South Delhi",
+                  "quote": "The keyboard on my ThinkPad stopped working after a tea spill. They cleaned the board and fitted a brand new keyboard. Very polite and honest service.",
+                  "rating": 5,
+                  "avatar": "/other/avatar-3.webp"
+                },
+                {
+                  "id": "t4",
+                  "name": "Amit Kumar",
+                  "location": "Faridabad",
+                  "quote": "Upgraded my 5-year-old HP laptop with a 500GB SSD and clean Windows 11. It boots up in 10 seconds now. Very satisfied with the quick turnaround.",
+                  "rating": 5,
+                  "avatar": "/other/avatar-4.webp"
+                },
+                {
+                  "id": "t5",
+                  "name": "Sonia Gupta",
+                  "location": "Ghaziabad",
+                  "quote": "Took my laptop in for thermal service because the fan sounded like a jet engine. They cleaned the dust, applied fresh thermal paste, and now it runs completely cool and silent.",
+                  "rating": 5,
+                  "avatar": "/other/avatar-1.webp"
+                }
+              ]
+            }
+          }
+        },
+        "Faq": {
+          "variants": {
+            "Computer RepairFaq2": {
+              "subtitle": "Got Questions?",
+              "title1": "Frequently Asked",
+              "title2": "Questions",
+              "description": "Here are quick answers to the most common questions customers ask before bringing in their devices.",
+              "image": "/other/faq.webp",
+              "faqs": [
+                {
+                  "id": "q1",
+                  "question": "How long does a typical laptop repair take?",
+                  "answer": "Common issues like screen replacements, SSD upgrades, battery swaps, and Windows installations are usually finished within 24 to 48 hours. Complex motherboard repairs may take 2 to 3 days."
+                },
+                {
+                  "id": "q2",
+                  "question": "Do you charge for checking my computer?",
+                  "answer": "Initial problem assessment and quoting are free of charge. If you decide to proceed with the repair, we only charge for parts and labor as discussed."
+                },
+                {
+                  "id": "q3",
+                  "question": "Will my personal files and data stay safe?",
+                  "answer": "Yes. We respect your privacy and never delete or alter your personal data without your permission. We also offer full data backup before any major system overhaul."
+                },
+                {
+                  "id": "q4",
+                  "question": "Do you provide a warranty on repairs and parts?",
+                  "answer": "Yes. All replaced hardware parts come with manufacturer warranty (typically 3 to 12 months), and our repair labor is backed by a 30-day service guarantee."
+                },
+                {
+                  "id": "q5",
+                  "question": "Can you speed up my old slow laptop?",
+                  "answer": "In 90% of cases, swapping an old mechanical hard drive with an SSD and adding more RAM makes an older laptop feel practically new, saving you the cost of buying a new one."
+                }
+              ]
+            }
+          }
+        },
+        "WhyChooseUs": {
+          "variants": {
+            "Computer RepairWhyChooseUs2": {
+              "subtitle": "Why Bring Your Computer To Us",
+              "title1": "Why Choose",
+              "titleHighlight": "TechFix",
+              "description": "We know how important your computer is for work, study, and daily life. That is why we focus on fast fixes, original parts, and transparent rates.",
+              "features": [
+                {
+                  "id": "wcu1",
+                  "icon": "FaShieldAlt",
+                  "title": "Experienced Techs",
+                  "description": "Years of hands-on experience dealing with all major computer brands."
+                },
+                {
+                  "id": "wcu2",
+                  "icon": "FaCog",
+                  "title": "Upfront Estimates",
+                  "description": "We always confirm costs with you before starting any repairs."
+                },
+                {
+                  "id": "wcu3",
+                  "icon": "FaCoins",
+                  "title": "Fair Pricing",
+                  "description": "Competitive local rates without surprise bills or hidden fees."
+                },
+                {
+                  "id": "wcu4",
+                  "icon": "FaAward",
+                  "title": "Original Parts",
+                  "description": "We source verified, quality components directly from trusted suppliers."
+                },
+                {
+                  "id": "wcu5",
+                  "icon": "FaHeadset",
+                  "title": "Helpful Advice",
+                  "description": "Clear explanations in plain English, not complicated computer jargon."
+                },
+                {
+                  "id": "wcu6",
+                  "icon": "FaUsers",
+                  "title": "Warranty Backed",
+                  "description": "Peace of mind with our 30-day labor and parts warranty."
+                }
+              ],
+              "button": {
+                "text": "Book a Repair ->",
+                "url": "/#book"
+              },
+              "image": "/other/why-choose.webp",
+              "stats": {
+                "count": "10,000+",
+                "label": "Repairs\\nCompleted",
+                "icon": "FaUsers"
+              },
+              "title2": "For Your Repairs?"
+            }
+          }
+        },
+        "Pricing": {
+          "variants": {
+            "Computer RepairPricing2": {
+              "subtitle": "Estimated Costs",
+              "title1": "Clear & Transparent",
+              "title2": "Repair Estimates",
+              "description": "Here is an overview of starting prices for our most common repair jobs. Final costs depend on your exact laptop or desktop model.",
+              "image": "/other/pricing.webp",
+              "features": [
+                {
+                  "id": "feat1",
+                  "title": "Clear Estimates",
+                  "description": "No hidden fees or unexpected charges",
+                  "icon": "FaWallet"
+                },
+                {
+                  "id": "feat2",
+                  "title": "Diagnostic First",
+                  "description": "We inspect before we quote any price",
+                  "icon": "FaShieldAlt"
+                },
+                {
+                  "id": "feat3",
+                  "title": "Original Parts",
+                  "description": "Quality screens, drives, and batteries",
+                  "icon": "FaCog"
+                },
+                {
+                  "id": "feat4",
+                  "title": "Warranty Included",
+                  "description": "Guarantee on both parts and service",
+                  "icon": "FaBolt"
+                }
+              ],
+              "tables": [
+                {
+                  "id": "table1",
+                  "title1": "Desktop Repair",
+                  "title2": "Pricing",
+                  "subtitle": "Reliable desktop repair services for homes and offices.",
+                  "items": [
+                    {
+                      "id": "item1",
+                      "service": "Diagnostic Checkup",
+                      "price": "₹299"
+                    },
+                    {
+                      "id": "item2",
+                      "service": "Motherboard Repair",
+                      "price": "₹1,499"
+                    },
+                    {
+                      "id": "item3",
+                      "service": "Power Supply Replacement",
+                      "price": "₹1,199"
+                    },
+                    {
+                      "id": "item4",
+                      "service": "RAM Upgrade",
+                      "price": "₹999"
+                    },
+                    {
+                      "id": "item5",
+                      "service": "SSD / HDD Replacement",
+                      "price": "₹1,499"
+                    },
+                    {
+                      "id": "item6",
+                      "service": "OS Installation (Windows/Linux)",
+                      "price": "₹599"
+                    },
+                    {
+                      "id": "item7",
+                      "service": "Virus Removal",
+                      "price": "₹499"
+                    },
+                    {
+                      "id": "item8",
+                      "service": "Assembling (New Desktop)",
+                      "price": "₹1,999"
+                    }
+                  ]
+                },
+                {
+                  "id": "table2",
+                  "title1": "Software Services",
+                  "title2": "Pricing",
+                  "subtitle": "Get your system running smoothly with our software support.",
+                  "items": [
+                    {
+                      "id": "item9",
+                      "service": "Windows Installation",
+                      "price": "₹599"
+                    },
+                    {
+                      "id": "item10",
+                      "service": "Linux Installation",
+                      "price": "₹599"
+                    },
+                    {
+                      "id": "item11",
+                      "service": "Software Installation (per software)",
+                      "price": "₹199"
+                    },
+                    {
+                      "id": "item12",
+                      "service": "Driver Installation / Update",
+                      "price": "₹299"
+                    },
+                    {
+                      "id": "item13",
+                      "service": "Virus & Malware Removal",
+                      "price": "₹499"
+                    },
+                    {
+                      "id": "item14",
+                      "service": "System Optimization",
+                      "price": "₹399"
+                    },
+                    {
+                      "id": "item15",
+                      "service": "Data Backup Setup",
+                      "price": "₹399"
+                    },
+                    {
+                      "id": "item16",
+                      "service": "Email Setup (Outlook, etc.)",
+                      "price": "₹299"
+                    }
+                  ]
+                }
+              ],
+              "noteTitle": "Important Note on Pricing",
+              "noteItems": [
+                "Prices listed are typical starting estimates and vary depending on component brand and laptop model.",
+                "We will always call you with the exact quote after diagnosis before replacing any part.",
+                "All replaced hardware comes with standard part warranty.",
+                "Discounts available for students, teachers, and small office fleets."
+              ]
+            }
+          }
+        },
+        "BookRepair": {
+          "variants": {
+            "Computer RepairBookRepair2": {
+              "subtitle": "Book Your Appointment",
+              "title1": "Schedule Your",
+              "title2": "Computer Repair",
+              "description": "Send us your device details below. We will get in touch quickly to confirm a drop-off or pickup time.",
+              "form": {
+                "title": "Book a Repair",
+                "subtitle": "Tell us what is wrong with your machine.",
+                "buttonText": "Submit Repair Request",
+                "privacyText": "We only use your contact details to reach you regarding your repair request."
+              },
+              "image": "/other/book-repair.webp",
+              "floatingCard": {
+                "title": "Trusted Local\\nRepair Workshop",
+                "features": [
+                  "Experienced Technicians",
+                  "Original Grade Parts",
+                  "Free Basic Checkup",
+                  "30-Day Service Warranty"
+                ]
+              },
+              "whyBook": {
+                "title1": "Why Book",
+                "title2": "With Us?",
+                "features": [
+                  {
+                    "id": "wb1",
+                    "title": "Direct Technicians",
+                    "description": "Talk directly to the person fixing your machine",
+                    "icon": "FaCog"
+                  },
+                  {
+                    "id": "wb2",
+                    "title": "Tested Parts",
+                    "description": "Every replacement part is thoroughly tested before delivery",
+                    "icon": "FaShieldAlt"
+                  },
+                  {
+                    "id": "wb3",
+                    "title": "Prompt Updates",
+                    "description": "Receive status updates on WhatsApp or SMS",
+                    "icon": "FaBolt"
+                  },
+                  {
+                    "id": "wb4",
+                    "title": "No Fix, No Fee",
+                    "description": "If we cannot diagnose or fix the issue, you pay nothing",
+                    "icon": "FaCoins"
+                  }
+                ]
+              },
+              "assistance": {
+                "title1": "Need Help",
+                "title2": "Right Now?",
+                "phoneLabel": "Call Our Shop",
+                "phone": "+1 000000000",
+                "emailLabel": "Email Support",
+                "email": "info@xyz.com"
+              }
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "shared": {
+          "Header": "Computer RepairHeader2",
+          "Footer": "Computer RepairFooter2"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "Hero",
+                "component": "Computer RepairHero2"
+              },
+              {
+                "key": "Services",
+                "component": "Computer RepairServices2"
+              },
+              {
+                "key": "AboutUs",
+                "component": "Computer RepairAboutUs2"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "Computer RepairWhyChooseUs2"
+              },
+              {
+                "key": "Process",
+                "component": "Computer RepairProcess2"
+              },
+              {
+                "key": "Pricing",
+                "component": "Computer RepairPricing2"
+              },
+              {
+                "key": "Achievement",
+                "component": "Computer RepairAchievement2"
+              },
+              {
+                "key": "Testimonials",
+                "component": "Computer RepairTestimonials2"
+              },
+              {
+                "key": "Faq",
+                "component": "Computer RepairFaq2"
+              },
+              {
+                "key": "Brands",
+                "component": "Computer RepairBrands2"
+              },
+              {
+                "key": "BookRepair",
+                "component": "Computer RepairBookRepair2"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

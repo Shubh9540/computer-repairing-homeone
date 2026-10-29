@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Fonts */
+  --font-primary: var(--font-poppins), sans-serif;
+  --font-heading: var(--font-poppins), sans-serif;
+
+  /* Global Color Tokens — Industrial Tech Amber Theme */
+  --color-bg-main: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-bg-alt: #fffbf5;
+  --color-primary: #161b22;
+  --color-primary-dark: #0d1117;
+  --color-accent: #f59e0b;
+  --color-accent-light: #fbbf24;
+  --color-text: #1f2937;
+  --color-text-light: #6b7280;
+  --color-border: #f3f4f6;
+}
+
+body {
+  color: var(--color-text);
+  background-color: var(--color-bg-main);
+}
